@@ -1,0 +1,24 @@
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Text("RKH Media")
+                .font(.custom("Arial", size: 24))
+                .fontWeight(.semibold)
+                .padding()
+                .class("brand-title")
+
+            Text("Welcome to our app!")
+                .padding()
+        }
+    }
+}
+
+// CSS styles for the app
+/*
+.brand-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+*/
