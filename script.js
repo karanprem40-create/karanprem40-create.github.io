@@ -1,4 +1,4 @@
-const YT_API_KEY = "AIzaSyC-W7om5FMegTDjxVoAdzfxbZzO5f_mXCQ"; // Replace with your YouTube Data API key
+const YT_API_KEY = ""; // Replace with your YouTube Data API key
 const YT_CHANNEL_ID = "UCYB8cOzzg6zijuq6luCrYyQ"; // Optional: set if you already know the channel ID
 const YT_CHANNEL_HANDLE = "RKHMedia_"; // Used to resolve channel ID via the API
 
