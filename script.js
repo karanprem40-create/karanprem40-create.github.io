@@ -8,6 +8,10 @@ const mostViewedContainer = document.getElementById("most-viewed-videos");
 const setupNotice = document.getElementById("setup-notice");
 if (setupNotice) setupNotice.style.display = "none";
 
+document.querySelectorAll("[data-current-year]").forEach((el) => {
+  el.textContent = new Date().getFullYear();
+});
+
 const escapeHtml = (str = "") =>
   str.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
