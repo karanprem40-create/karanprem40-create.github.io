@@ -336,7 +336,8 @@ img {
 
 .video-thumb {
   position: relative;
-  height: 150px;
+  display: block;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
   background: #111827;
 }
@@ -392,7 +393,7 @@ img {
 }
 
 .video-card.loading .video-thumb {
-  height: 150px;
+  aspect-ratio: 16 / 9;
 }
 
 .video-card.loading .video-body::after {
